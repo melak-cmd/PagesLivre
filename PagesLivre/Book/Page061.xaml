@@ -1,0 +1,33 @@
+﻿<s:SurfaceUserControl x:Class="PagesLivre.Book.Page061"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:book="clr-namespace:PagesLivre.Book"
+    xmlns:s="http://schemas.microsoft.com/surface/2008">
+    <s:SurfaceUserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="PageStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </s:SurfaceUserControl.Resources>
+    <StackPanel Style="{StaticResource PageStyle}">
+
+        <StackPanel Style="{StaticResource PageTitleBlock2}">
+            <book:imgFNAIM ShowTitre="False" />
+            <TextBlock Style="{StaticResource PageTitle2}">L'offre de prêt</TextBlock>
+        </StackPanel>
+        <TextBlock Style="{StaticResource PageParagraphe}">L'établissement financier doit remettre au demandeur et aux éventuelles cautions une offre préalable de prêt mentionnant l'ensemble des caractéristiques.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagrapheBold}">A savoir et au minimum : l'identité des parties, la nature, l'objet et les modalités du prêt et de la mise à disposition des fonds, le tableau de remboursement distinguant capital et intérêts, les exigences en matière d'assurance et de sûretés (hypothèques, etc.), les modalités de transfert à une tierce personne, ainsi que les frais éventuellement retenus si l'acquisition en question ne se réalise pas.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">Outre une amende, le non-respect de ces dispositions peut entraîner la nullité du contrat ou faire perdre au prêteur le droit aux intérêts.</TextBlock>
+
+        <StackPanel Style="{StaticResource PageTitleBlock2}">
+            <book:imgFNAIM ShowTitre="False" />
+            <TextBlock Style="{StaticResource PageTitle2}">La conclusion du prêt</TextBlock>
+        </StackPanel>
+        <TextBlock Style="{StaticResource PageParagraphe}">Le demandeur dispose d'un délai de réflexion obligatoire. Il ne peut accepter l'offre de prêt avant le dixième jour suivant sa réception.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">Aucun versement ne peut avoir lieu avant l'acceptation.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagrapheBold}">L'acceptation anticipée entraîne la nullité du contrat, même si le demandeur renouvelle son acceptation. Toute fraude sur les dates, de la part du prêteur, peut entraîner aussi la perte du droit à intérêts.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagrapheBold}">Tout avenant au contrat doit faire l'objet d'une nouvelle offre préalable dans les conditions ci-dessus, sauf pour les crédits à taux variable dont les modalités de variation sont fixées dans le contrat initial.</TextBlock>
+
+    </StackPanel>
+</s:SurfaceUserControl>

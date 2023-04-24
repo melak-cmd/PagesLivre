@@ -1,0 +1,37 @@
+﻿<s:SurfaceUserControl x:Class="PagesLivre.Book.Page011"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:book="clr-namespace:PagesLivre.Book"
+    xmlns:s="http://schemas.microsoft.com/surface/2008">
+    <s:SurfaceUserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="PageStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </s:SurfaceUserControl.Resources>
+    <StackPanel Style="{StaticResource PageStyle}">
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            Naturellement, tous les autres frais et taxes sont à la charge de l'usufruitier (ou éventuellement du locataire) : taxe foncière, électricité, assurance, etc.
+        </TextBlock>
+        <StackPanel Style="{StaticResource PageTitleBlock2}">
+            <book:imgFNAIM ShowTitre="False" />
+            <TextBlock Style="{StaticResource PageTitle2}">Les obligations de chacun</TextBlock>
+        </StackPanel>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            L'usufruitier est tenu à la bonne conservation du bien. Ce qui est logique puisqu'en laissant le bien se dégrader, il porterait atteinte aux intérêts du nu-propriétaire.
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            Le nu-propriétaire, en revanche, n'est pas légalement obligé d'effectuer les travaux de grosses réparations qui lui incombent et l'usufruitier ne peut l'y contraindre. Mais en refusant de les effectuer, le nu-propriétaire agit contre son propre intérêt puisque le bien peut se dégrader.
+Une situation plus fréquente qu'on ne le croit. En effet, le nu-propriétaire ne disposant pas des revenus du bien, il peut arriver qu'il n'ait pas les moyens financiers d'entreprendre les réparations nécessaires. Dans ce cas, l'usufruitier peut se substituer à lui et prendre volontairement ces travaux à sa charge. Il peut même y être obligé par le locataire si le bien est loué.
+Exception notable : dans les immeubles en copropriété, l'usufruitier et le nu-propriétaire sont tenus d'effectuer les travaux qui leur incombent dès lors qu'ils ont été votés par l'assemblée générale.
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            L'usufruitier dispose de deux possibilités de recours contre le nu-propriétaire défaillant.
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            Si la défection du nu-propriétaire empêche l'usufruitier de jouir du bien dans des conditions normales, celui-ci peut demander des dommages-intérêts en invoquant l'article 599 du Code civil : "le propriétaire ne peut, par son fait, ni de quelque manière que ce soit, nuire aux droits de l'usufruitier.".
+        </TextBlock>
+
+    </StackPanel>
+</s:SurfaceUserControl>

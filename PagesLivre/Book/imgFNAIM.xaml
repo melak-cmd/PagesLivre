@@ -1,0 +1,55 @@
+﻿<s:SurfaceUserControl x:Class="PagesLivre.Book.imgFNAIM"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:s="http://schemas.microsoft.com/surface/2008">
+    <Viewbox Stretch="Uniform">
+        <Canvas xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Name="svg2456" Width="770.6875" Height="571.65625">
+            <Canvas x:Name="logo_FNAIM" RenderTransform="1.25,0,0,-1.25,0,0" Canvas.Left="-8615.24" Canvas.Top="9285.2649">
+                <Path Fill="#FFFFDC00" x:Name="path2469" RenderTransform="0.8,0,0,-0.8,0,0" Canvas.Left="6892.192" Canvas.Top="7428.2119" Data="M484.21875,0L483.90625,0.03125 0.3125,285.8125 0,286 484.15625,571.65625 484.21875,571.59375 484.28125,571.53125 770.6875,285.1875 484.21875,0z">
+                </Path>
+                <Path Fill="#FFDABB00" x:Name="path2477" Data="M7279.541,6970.8848L7050.301,7199.4288 6892.192,7199.4288 7121.254,6970.8448">
+                </Path>
+                <Path Fill="#FF1D2D28" x:Name="titre" RenderTransform="0.8,0,0,-0.8,0,0" Canvas.Left="6892.192" Canvas.Top="7428.2119">
+                    <Path.Data>
+                        <PathGeometry FillRule="Nonzero">
+                            <PathGeometry.Figures>
+                                <PathFigure StartPoint="493.34375,234.875" IsClosed="True">
+                                    <PathFigure.Segments>
+                                        <PolyLineSegment Points="452.40625,319.9375 443.28125,325.1875 469.65625,325.34375 461,319.875 467.96875,304.5625 509.65625,304.5625 516.875,320.25 509,325.1875 540.34375,325.1875 531.71875,319.78125 493.34375,234.875" />
+                                    </PathFigure.Segments>
+                                </PathFigure>
+                                <PathFigure StartPoint="424.40625,240.625" IsClosed="True">
+                                    <PathFigure.Segments>
+                                        <PolyLineSegment Points="434.53125,246.03125 434.53125,300.09375 383.3125,240.65625 363.65625,240.65625 373.40625,246.84375 373.3125,247.34375 373.3125,319.09375 364.78125,325.25 390.0625,325.28125 379.59375,319 379.59375,257.375 440.9375,328.4375 440.9375,246.03125 450.8125,240.65625 424.40625,240.625" />
+                                    </PathFigure.Segments>
+                                </PathFigure>
+                                <PathFigure StartPoint="544.0625,240.625" IsClosed="True">
+                                    <PathFigure.Segments>
+                                        <PolyLineSegment Points="553.5625,246.375 553.5625,319.34375 543.5625,325.34375 576.375,325.34375 566.34375,319.625 566.34375,246.4375 576.03125,240.625 544.0625,240.625" />
+                                    </PathFigure.Segments>
+                                </PathFigure>
+                                <PathFigure StartPoint="580,240.625" IsClosed="True">
+                                    <PathFigure.Segments>
+                                        <PolyLineSegment Points="589.125,246.375 589.125,319.4375 578.75,325.1875 606.5625,325.1875 595.78125,319.9375 595.78125,254.84375 628.65625,327.9375 660.96875,259.15625 660.96875,319.125 651.96875,325.28125 685.3125,325.28125 675.34375,319.28125 675.09375,245.71875 684.28125,240.625 661.0625,240.625 632.46875,302.34375 605.21875,240.625 580,240.625" />
+                                    </PathFigure.Segments>
+                                </PathFigure>
+                                <PathFigure StartPoint="294.09375,240.65625" IsClosed="True">
+                                    <PathFigure.Segments>
+                                        <PolyLineSegment Points="303.90625,246.6875 303.84375,319.9375 294.40625,325.1875 325.90625,325.1875 316.78125,319.9375 316.78125,285.375 340.78125,285.375 346.28125,295.3125 346.21875,269.5625 340.9375,277.96875 316.78125,277.96875 316.78125,248.40625 353.75,248.40625 357.78125,257.71875 357.78125,240.65625 294.09375,240.65625" />
+                                    </PathFigure.Segments>
+                                </PathFigure>
+                                <PathFigure StartPoint="489.5,260.4375" IsClosed="True">
+                                    <PathFigure.Segments>
+                                        <PolyLineSegment Points="506.28125,298.1875 470.78125,298.21875 489.5,260.4375" />
+                                    </PathFigure.Segments>
+                                </PathFigure>
+                            </PathGeometry.Figures>
+                        </PathGeometry>
+                    </Path.Data>
+                </Path>
+                <Path Fill="#FFEECC00" x:Name="path2501" Data="M7279.5811,7428.2119L7050.5391,7199.5479 6892.4311,7199.5479 7121.3731,7428.1319">
+                </Path>
+            </Canvas>
+        </Canvas>
+    </Viewbox>
+</s:SurfaceUserControl>

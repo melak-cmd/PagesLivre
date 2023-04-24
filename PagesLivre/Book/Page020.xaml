@@ -1,0 +1,40 @@
+﻿<s:SurfaceUserControl x:Class="PagesLivre.Book.Page020"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:book="clr-namespace:PagesLivre.Book"
+    xmlns:s="http://schemas.microsoft.com/surface/2008">
+    <s:SurfaceUserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="PageStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </s:SurfaceUserControl.Resources>
+    <StackPanel Style="{StaticResource PageStyle}">
+        <StackPanel Style="{StaticResource PageTitleBlock1}">
+            <book:imgFNAIM ShowTitre="False" />
+            <TextBlock Style="{StaticResource PageTitle1}">L'avant contrat de vente</TextBlock>
+        </StackPanel>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            Acheteur ou vendeur s'imaginent parfois que la signature d'un avant-contrat n'engage pas à grand-chose. Rien n'est plus faux : malgré son nom, l'avant-contrat constitue bel et bien un "contrat", au sens juridique du terme, qui entraîne des obligations importantes pour les deux parties.
+        </TextBlock>
+        
+        <StackPanel Style="{StaticResource PageTitleBlock2}">
+            <book:imgFNAIM ShowTitre="False" />
+            <TextBlock Style="{StaticResource PageTitle2}">L'importance de l'avant-contrat</TextBlock>
+        </StackPanel>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            Précisons tout d'abord que la signature d'un avant-contrat n'est pas légalement obligatoire. Mais il est indispensable dans la pratique : en effet, au moment de l'accord, l'acheteur ne dispose généralement pas encore de tous les éléments d'information (droit de préemption éventuel, absence de servitudes, etc.).
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            Dans la pratique, l'appel à un professionnel (agent immobilier) est lui aussi indispensable, étant donné la complexité de la matière et l'importance des engagements pris. En effet, les termes de cet avant-contrat sont essentiels puisque le contrat définitif ne fera en principe que les reprendre.
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagrapheBold}">
+            Généralement, son coût est déduit, selon les cas, de la commission de l'agent immobilier. Il ne représente donc aucun surcoût réel pour les parties concernées.
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            Avec la mise en application de la loi "Solidarité et Renouvellement Urbains" au 1er juin 2001, un délai de rétractation a été institué au profit de l'acquéreur non professionnel. Un particulier qui signe un avant-contrat dispose désormais d'un délai de sept jours pour changer d'avis en informant le vendeur par acte d'huissier ou lettre recommandée avec AR.
+        </TextBlock>
+
+    </StackPanel>
+</s:SurfaceUserControl>

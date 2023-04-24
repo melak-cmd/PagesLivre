@@ -1,0 +1,25 @@
+﻿<s:SurfaceUserControl x:Class="PagesLivre.Book.Page073"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:book="clr-namespace:PagesLivre.Book"
+    xmlns:s="http://schemas.microsoft.com/surface/2008">
+    <s:SurfaceUserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="PageStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </s:SurfaceUserControl.Resources>
+    <StackPanel Style="{StaticResource PageStyle}">
+        <TextBlock Style="{StaticResource PageParagraphe}">Qui dit construction, dit fondation. La nature du sol et du sous-sol est donc un critère fondamental. Si les renseignements pris auprès des voisins ou de la mairie semblent douteux ou insuffisants, mieux vaut investir dans une étude spécifique confiée à un expert. Certes, ce type d'étude est onéreux mais cela permet d'éviter les mauvaises surprises au moment de la construction, qui se traduisent par des surcoûts non négligeables.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">Quand le terrain est isolé, il faut enfin se renseigner sur le coût des différents branchements aux réseaux d'eau et d'électricité.</TextBlock>
+
+        <StackPanel Style="{StaticResource PageTitleBlock2}">
+            <book:imgFNAIM ShowTitre="False" />
+            <TextBlock Style="{StaticResource PageTitle2}">La procédure d'achat</TextBlock>
+        </StackPanel>
+        <TextBlock Style="{StaticResource PageParagraphe}">Sur le plan formel, l'achat d'un terrain est soumis à la même procédure que l'achat d'un logement : signature d'un avant-contrat, suivi de la signature de l'acte authentique. Comme dans tous les achats immobiliers, il faut examiner avec soin le contenu de l'acte et vérifier qu'il précise bien l'ensemble des frais et taxes, les éventuelles servitudes, la description exacte du terrain ,etc.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">L'avant-contrat doit également préciser la surface constructible sur le terrain et mentionner les habituelles conditions suspensives : la vente ne sera définitive qu'après que l'acheteur aura obtenu le certificat d'urbanisme, le permis de construire, les éventuels prêts, etc.</TextBlock>
+
+    </StackPanel>
+</s:SurfaceUserControl>

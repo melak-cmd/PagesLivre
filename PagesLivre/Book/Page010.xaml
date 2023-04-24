@@ -1,0 +1,41 @@
+﻿<s:SurfaceUserControl x:Class="PagesLivre.Book.Page010"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:s="http://schemas.microsoft.com/surface/2008"
+    xmlns:book="clr-namespace:PagesLivre.Book">
+    <s:SurfaceUserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="PageStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </s:SurfaceUserControl.Resources>
+    <StackPanel Style="{StaticResource PageStyle}" >
+        <StackPanel Style="{StaticResource PageTitleBlock1}">
+            <book:imgFNAIM ShowTitre="False" />
+            <TextBlock Style="{StaticResource PageTitle1}">Charges et réparations : qui paie quoi ?</TextBlock>
+        </StackPanel>
+        <StackPanel Style="{StaticResource PageTitleBlock2}">
+            <book:imgFNAIM ShowTitre="False" />
+            <TextBlock Style="{StaticResource PageTitle2}">La répartition des charges</TextBlock>
+        </StackPanel>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            Elle est définie par les articles 605 et 606 du Code civil, inchangés depuis 1804 : "Les grosses réparations demeurent à la charge du propriétaire (...) Les grosses réparations sont celles des gros murs et des voûtes, le rétablissement des poutres et des couvertures entières, celui des digues et des murs de soutènement et de clôture aussi en entier. Toutes les autres réparations sont d'entretien."
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            En d'autres termes, tout ce que la loi ne met pas expressément à la charge du nu-propriétaire doit être payé par l'usufruitier. Naturellement, les tribunaux ont été amenés, au fil des ans, à préciser ces notions de grosses réparations et d'entretien.
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            Ont été ainsi considérés comme des dépenses d'entretien : la réfection du crépi, le ravalement d'un immeuble, le remplacement d'une chaudière ou d'un ballon d'eau chaude, la réfection d'une terrasse, d'une installation électrique, d'un escalier extérieur, etc.
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            En revanche, la réfection totale des toitures ou des zingueries, des souches de cheminée ou encore le ravalement quand il sert à l'étanchéité de l'immeuble sont considérés comme de grosses réparations.
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            D'une manière générale, les tribunaux prennent en compte l'importance et le coût des travaux pour déterminer à qui ils incombent. En principe, les dommages qui compromettent la solidité de l'ouvrage doivent, dans l'ensemble, être réparés par le nu-propriétaire.
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            En outre, si des dépenses de grosses réparations sont le résultat d'un défaut d'entretien, l'usufruitier est tenu de les prendre en charge.
+        </TextBlock>
+    </StackPanel>
+</s:SurfaceUserControl>

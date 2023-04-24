@@ -1,0 +1,25 @@
+﻿<s:SurfaceUserControl x:Class="PagesLivre.Book.Page012"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:book="clr-namespace:PagesLivre.Book"
+    xmlns:s="http://schemas.microsoft.com/surface/2008">
+    <s:SurfaceUserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="PageStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </s:SurfaceUserControl.Resources>
+    <StackPanel Style="{StaticResource PageStyle}">
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            Si les réparations financées par l'usufruitier procurent une plus-value au bien, le nu-propriétaire en profitera lors de l'extinction de l'usufruit. L'usufruitier peut alors exiger un dédommagement en invoquant "l'enrichissement sans cause", dédommagement calculé en fonction de la plus-value et non pas des dépenses.
+        </TextBlock>
+        <StackPanel Orientation="Horizontal" Style="{StaticResource PageTitleBlock2}">
+            <book:imgFNAIM ShowTitre="False" />
+            <TextBlock Style="{StaticResource PageTitle2}">Une convention préalable</TextBlock>
+        </StackPanel>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            Les dispositions des articles 605 et suivants du Code civil ne s'imposent pas aux deux parties. Dès lors, l'usufruitier et le nu-propriétaire peuvent parfaitement signer une convention de répartition des charges différentes, lors du démembrement de propriété. C'est là un moyen de définir avec précision et équité les obligations de chacun et de prévenir tout litige ultérieur.
+        </TextBlock>
+    </StackPanel>
+</s:SurfaceUserControl>

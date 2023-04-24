@@ -1,0 +1,20 @@
+﻿<s:SurfaceUserControl x:Class="PagesLivre.Book.Page072"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:book="clr-namespace:PagesLivre.Book"
+    xmlns:s="http://schemas.microsoft.com/surface/2008">
+    <s:SurfaceUserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="PageStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </s:SurfaceUserControl.Resources>
+    <StackPanel Style="{StaticResource PageStyle}">
+        <TextBlock Style="{StaticResource PageParagraphe}">Si l'on envisage d'acheter dans un lotissement, il faut naturellement se procurer le règlement de lotissement et le cahier des charges, ainsi que l'arrêté de lotir, délivré au lotisseur par les services de l'urbanisme, qui détaille les travaux et les aménagements prévus (voirie, éclairage, etc.). Il est important également de prendre en compte les futures charges collectives, qui dépendent de la nature des parties communes : sont-elles privées (auquel cas les propriétaires doivent en assurer l'entretien) ou publiques (c'est alors à la commune de les entretenir mais elles sont dans ce cas ouvertes à tous) ?</TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">Autre démarche : vérifier la surface exacte du terrain et ses limites, surtout s'il n'est pas situé dans un lotissement. Les indications portées sur le cadastre sont souvent insuffisantes. Dans le doute, mieux vaut faire effectuer un "bornage". Cette opération qui consiste, comme son nom l'indique, à délimiter le terrain par des bornes, est réalisée par un géomètre-expert qui consulte les titres de propriété concernés, y compris, naturellement, ceux des voisins. Une fois établi le procès-verbal, l'ensemble des intéressés signent le document qui établit définitivement la surface de la parcelle concernée. Un document qu'il vaut mieux ensuite déposer au Fichier des Hypothèques afin de le rendre opposable aux tiers.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagrapheBold}">Il peut arriver que les voisins s'opposent au bornage. Dans ce cas, il faut saisir le tribunal d'instance qui désignera un expert chargé de l'opération, le coût de celle-ci étant alors partagé entre tous les intéressés.</TextBlock>
+
+
+    </StackPanel>
+</s:SurfaceUserControl>

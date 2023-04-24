@@ -1,0 +1,54 @@
+﻿<s:SurfaceUserControl x:Class="PagesLivre.Book.Page031"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:book="clr-namespace:PagesLivre.Book"
+    xmlns:s="http://schemas.microsoft.com/surface/2008">
+    <s:SurfaceUserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="PageStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </s:SurfaceUserControl.Resources>
+    <StackPanel Style="{StaticResource PageStyle}">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="25"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <book:imgFNAIM ShowTitre="False" VerticalAlignment="Top" Margin="5,2,5,0" />
+            <TextBlock Style="{StaticResource PageParagrapheBold}" Grid.Column="1">
+                Naturellement, c'est au demandeur de prouver que la valeur locative a varié de plus de 10%, à la hausse (pour le bailleur) ou à la baisse (pour le locataire).
+            </TextBlock>
+        </Grid>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            En cas de désaccord, les parties devront porter l'affaire devant le tribunal de grande instance, qui déterminera la valeur locative litigieuse.
+        </TextBlock>
+
+        <StackPanel Style="{StaticResource PageTitleBlock2}">
+            <book:imgFNAIM ShowTitre="False" />
+            <TextBlock Style="{StaticResource PageTitle2}">La procédure</TextBlock>
+        </StackPanel>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            Comme on le sait, le locataire a droit au renouvellement du bail, en vertu de la "propriété commerciale". Faute de tacite reconduction, les demandes des parties doivent être faites par acte d'huissier.
+            Au moins six mois avant l'expiration du bail, le propriétaire peut proposer le renouvellement avec un nouveau loyer.Il peut revenir sur son offre tant que le locataire ne l'a pas acceptée.
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            Le locataire peut demander le renouvellement dans les six mois qui précèdent la fin du bail ou à tout moment après sa reconduction. Le propriétaire doit répondre à cette demande dans les trois mois, en proposant un nouveau loyer.
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            Faute d'accord entre les parties, le loyer est fixé en référence à l'indice Insee ou à la valeur locative.
+        </TextBlock>
+
+        <StackPanel Style="{StaticResource PageTitleBlock2}">
+            <book:imgFNAIM ShowTitre="False" />
+            <TextBlock Style="{StaticResource PageTitle2}">Le loyer du nouveau bail</TextBlock>
+        </StackPanel>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            Le loyer du nouveau bail est soumis à un plafonnement : sa variation ne peut excéder celle de l'indice Insee de la construction.
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            Ce plafonnement n'intervient pas et le nouveau loyer est fixé à la valeur locative dans plusieurs cas de renouvellement.
+        </TextBlock>
+    </StackPanel>
+</s:SurfaceUserControl>

@@ -1,0 +1,23 @@
+﻿<s:SurfaceUserControl x:Class="PagesLivre.Book.Page064"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:book="clr-namespace:PagesLivre.Book"
+    xmlns:s="http://schemas.microsoft.com/surface/2008">
+    <s:SurfaceUserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="PageStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </s:SurfaceUserControl.Resources>
+    <StackPanel Style="{StaticResource PageStyle}">
+
+        <StackPanel Style="{StaticResource PageTitleBlock2}">
+            <book:imgFNAIM ShowTitre="False" />
+            <TextBlock Style="{StaticResource PageTitle2}">Le contrat de vente</TextBlock>
+        </StackPanel>
+        <TextBlock Style="{StaticResource PageParagraphe}">L'acquéreur qui n'obtient pas son financement dans le délai prévu dans l'avant-contrat (au minimum un mois) doit récupérer l'intégralité de l'acompte déjà versé.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagrapheBold}">Cette condition suspensive doit obligatoirement être mentionnée dans l'avant-contrat.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">L'acquéreur doit toutefois faire face à son engagement quand il est à l'origine, directe ou indirecte, du refus du prêt : dossier remis incomplet à l'établissement, dissimulation de revenus, etc. Tel n'est pas le cas quand le refus est causé par l'insuffisance de ses revenus.</TextBlock>
+    </StackPanel>
+</s:SurfaceUserControl>

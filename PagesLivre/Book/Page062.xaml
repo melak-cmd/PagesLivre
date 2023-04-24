@@ -1,0 +1,26 @@
+﻿<s:SurfaceUserControl x:Class="PagesLivre.Book.Page062"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:book="clr-namespace:PagesLivre.Book"
+    xmlns:s="http://schemas.microsoft.com/surface/2008">
+    <s:SurfaceUserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="PageStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </s:SurfaceUserControl.Resources>
+    <StackPanel Style="{StaticResource PageStyle}">
+        <TextBlock Style="{StaticResource PageParagrapheBold}">La loi du 25 juin 1999 stipule qu'en cas de renégociation de prêt, les modifications au contrat sont apportées par un avenant qui comprend un nouvel échéancier d'amortissement, le TEG, ainsi que le coût du crédit calculé sur la base des seuls échéances et frais à venir. L'emprunteur dispose, à compter de la réception de l'avenant, d'un délai de réflexion de dix jours. La loi prévoit également que les renégociations de prêt favorables aux emprunteurs sont réputées régulières. Cette disposition concerne les renégociations relatives à une baisse du taux d'intérêt du prêt, une diminution du montant des échéances, ou une diminution de la durée du prêt.</TextBlock>
+
+        <StackPanel Style="{StaticResource PageTitleBlock2}">
+            <book:imgFNAIM ShowTitre="False" />
+            <TextBlock Style="{StaticResource PageTitle2}">La conclusion du prêt</TextBlock>
+        </StackPanel>
+        <TextBlock Style="{StaticResource PageParagraphe}">Si l'acquisition envisagée n'est pas réalisée dans les quatre mois qui suivent l'acceptation du prêt, celui-ci est résilié de plein droit. L'emprunteur rembourse alors les sommes prêtées assorties des intérêts qui y sont liés.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagrapheBold}">Le prêteur peut demander en plus une indemnité au titre des frais d'études. Elle ne peut dépasser 0,75% du montant du prêt, dans la limite de 150 €.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">Quand l'emprunteur demande plusieurs prêts pour financer son opération, la non-obtention d'un prêt entraîne l'annulation des autres.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagrapheBold}">Cette règle ne s'applique que si le prêt non obtenu représente au moins 10% du montant total de l'opération.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">La plupart des prêteurs exigent que soit souscrite une assurance garantissant l'emprunteur contre certains risques (décès, invalidité, voire chômage). Quand l'assureur refuse son agrément en raison du profil du demandeur, celui-ci peut demander l'annulation du prêt dans le délai d'un mois.</TextBlock>
+    </StackPanel>
+</s:SurfaceUserControl>

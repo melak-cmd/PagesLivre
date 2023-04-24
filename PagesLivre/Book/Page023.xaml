@@ -1,0 +1,42 @@
+﻿<s:SurfaceUserControl x:Class="PagesLivre.Book.Page023"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:book="clr-namespace:PagesLivre.Book"
+    xmlns:s="http://schemas.microsoft.com/surface/2008">
+    <s:SurfaceUserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="PageStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </s:SurfaceUserControl.Resources>
+    <StackPanel Style="{StaticResource PageStyle}">
+        <StackPanel Style="{StaticResource PageTitleBlock2}">
+            <book:imgFNAIM ShowTitre="False" />
+            <TextBlock Style="{StaticResource PageTitle2}">Le compromis de vente</TextBlock>
+        </StackPanel>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            Il s'agit ici d'un véritable acte de vente avec "début d'exécution" puisque les deux parties sont engagées de façon irrévocable: le vendeur promet de vendre au candidat, qui promet d'acheter. Ce dernier verse en contrepartie un "dépôt de garantie" comme dans n'importe quel contrat.
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            Si l'une des deux parties concernées renonce à la transaction, l'autre peut l'y contraindre par voie de justice, en exigeant, de surcroît, des dommages-intérêts.
+        </TextBlock>
+        <StackPanel Style="{StaticResource PageTitleBlock2}">
+            <book:imgFNAIM ShowTitre="False" />
+            <TextBlock Style="{StaticResource PageTitle2}">Les clauses restrictives</TextBlock>
+        </StackPanel>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            Compte tenu de l'importance des engagements de chacun, les avant-contrats incluent en principe certaines clauses qui peuvent empêcher l'exécution du contrat définitif. Les parties en décident librement de la rédaction de ces clauses. La seule obligation légale concerne les achats de logements financés par un prêt.
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageTitle3}">
+            Les clauses de dédit
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            Surtout utilisée dans les compromis de vente, la clause de dédit permet à chaque partie de renoncer moyennant le versement d'une somme fixée à l'avance.
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagrapheBold}">
+            Dans certains cas, il s'agit d'un versement d'arrhes "valant moyen de dédit". Le propriétaire doit alors verser le double des arrhes s'il change d'avis tandis que le candidat-acheteur perd cette somme s'il renonce à acheter.
+        </TextBlock>
+
+    </StackPanel>
+</s:SurfaceUserControl>

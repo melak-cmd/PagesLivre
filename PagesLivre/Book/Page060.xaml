@@ -1,0 +1,38 @@
+﻿<s:SurfaceUserControl x:Class="PagesLivre.Book.Page060"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:book="clr-namespace:PagesLivre.Book"
+    xmlns:s="http://schemas.microsoft.com/surface/2008">
+    <s:SurfaceUserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="PageStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </s:SurfaceUserControl.Resources>
+    <StackPanel Style="{StaticResource PageStyle}">
+        <StackPanel Style="{StaticResource PageTitleBlock1}">
+            <book:imgFNAIM ShowTitre="False" />
+            <TextBlock Style="{StaticResource PageTitle1}">Crédits immobiliers : les règles légales</TextBlock>
+        </StackPanel>
+        <TextBlock Style="{StaticResource PageParagraphe}">Pour protéger les intérêts de l'emprunteur, les crédits immobiliers sont soumis à une législation très stricte, définie par le Code de la Consommation. Les règles à respecter.</TextBlock>
+
+        <StackPanel Style="{StaticResource PageTitleBlock2}">
+            <book:imgFNAIM ShowTitre="False" />
+            <TextBlock Style="{StaticResource PageTitle2}">Le domaine d'application</TextBlock>
+        </StackPanel>
+        <TextBlock Style="{StaticResource PageParagraphe}">La législation sur le crédit immobilier (art. 312-1 et suivants du Code de la Consommation) s'applique à tous les prêts, quelle que soit leur forme, portant sur les opérations suivantes :</TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">- achat de la propriété ou de la jouissance d'un immeuble d'habitation ou à usage mixte</TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">- travaux de construction, réparation, amélioration ou entretien d'un montant supérieur à 21 500 €.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagrapheBold}">On prend en compte le montant des travaux et non du prêt.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">L'achat doit être réalisé par une personne, physique ou morale, hors de son activité professionnelle.</TextBlock>
+
+        <StackPanel Style="{StaticResource PageTitleBlock2}">
+            <book:imgFNAIM ShowTitre="False" />
+            <TextBlock Style="{StaticResource PageTitle2}">La publicité</TextBlock>
+        </StackPanel>
+        <TextBlock Style="{StaticResource PageParagraphe}">Tous les supports de publicité doivent mentionner les caractéristiques principales du prêt.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagrapheBold}">L'identité du prêteur, les modalités de financement offertes, le coût total et le taux effectif global, assurances comprises. La publicité doit également mentionner le délai de réflexion de dix jours garanti au demandeur avant l'acceptation définitive.</TextBlock>
+
+    </StackPanel>
+</s:SurfaceUserControl>

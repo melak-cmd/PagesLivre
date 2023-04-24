@@ -1,0 +1,49 @@
+﻿<s:SurfaceUserControl x:Class="PagesLivre.Book.Page030"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:book="clr-namespace:PagesLivre.Book"
+    xmlns:s="http://schemas.microsoft.com/surface/2008">
+    <s:SurfaceUserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="PageStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </s:SurfaceUserControl.Resources>
+    <StackPanel Style="{StaticResource PageStyle}">
+        <StackPanel Style="{StaticResource PageTitleBlock1}">
+            <book:imgFNAIM ShowTitre="False" />
+            <TextBlock Style="{StaticResource PageTitle1}">La révision du loyer</TextBlock>
+        </StackPanel>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            Régi par le décret du 30 septembre 1953, le bail commercial obéit à une législation relativement complexe. Ce qui entraîne de fréquents litiges, notamment en matière de loyers.
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            Contrairement aux baux d'habitation, le loyer est fixé librement par les parties. Il est égal à la valeur locative réelle, qui tient compte de plusieurs éléments, énumérés par l'article 23 du décret : les caractéristiques du local, la destination des lieux, les obligations juridiques et financières des parties, les loyers du voisinage, les facteurs locaux de commercialité (environnement du quartier, moyens de transport, parkings, activités du voisinage, etc.)
+        </TextBlock>
+
+        <StackPanel Style="{StaticResource PageTitleBlock2}">
+            <book:imgFNAIM ShowTitre="False" />
+            <TextBlock Style="{StaticResource PageTitle2}">En cours de bail</TextBlock>
+        </StackPanel>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            Fixé pour une durée minimale de neuf ans, le loyer peut tout de même varier en cours de bail.
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            Trois ans après l'entrée dans les lieux, le locataire ou le propriétaire peuvent demander, par lettre recommandée ou acte d'huissier, une modification du loyer dans le cadre de la "révision triennale".
+        </TextBlock>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="25"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <book:imgFNAIM ShowTitre="False" VerticalAlignment="Top" Margin="5,2,5,0" />
+            <TextBlock Style="{StaticResource PageParagrapheBold}" Grid.Column="1">
+            La date de cette demande fixe la date d'effet du nouveau loyer et le point de départ d'un nouveau délai de trois ans. La variation du loyer est égale à celle de l'indice trimestriel Insee du coût de la construction.
+            </TextBlock>
+        </Grid>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            Si l'évolution des facteurs locaux de commercialité fait varier de plus de 10% la valeur locative, le plafonnement ne joue pas et le nouveau loyer est fixé au niveau de cette valeur locative.
+        </TextBlock>
+    </StackPanel>
+</s:SurfaceUserControl>

@@ -1,0 +1,29 @@
+﻿<s:SurfaceUserControl x:Class="PagesLivre.Book.Page070"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:book="clr-namespace:PagesLivre.Book"
+    xmlns:s="http://schemas.microsoft.com/surface/2008">
+    <s:SurfaceUserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="PageStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </s:SurfaceUserControl.Resources>
+    <StackPanel Style="{StaticResource PageStyle}">
+        <StackPanel Style="{StaticResource PageTitleBlock1}">
+            <book:imgFNAIM ShowTitre="False" />
+            <TextBlock Style="{StaticResource PageTitle1}">L'achat du terrain</TextBlock>
+        </StackPanel>
+        <TextBlock Style="{StaticResource PageParagraphe}">La construction d'une maison individuelle n'est pas une sinécure. Mais le choix et l'achat du terrain ne sont pas non plus une mince affaire. Cette étape préalable conditionne même en grande partie la réussite de l'opération.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">C'est une évidence qu'il faut rappeler : la nature du terrain, la configuration de la parcelle et les données administratives qui y sont liées vont déterminer l'architecture de la maison. Il est donc prématuré de dessiner un plan ou de choisir un modèle de construction avant de disposer du terrain.</TextBlock>
+
+        <StackPanel Style="{StaticResource PageTitleBlock2}">
+            <book:imgFNAIM ShowTitre="False" />
+            <TextBlock Style="{StaticResource PageTitle2}">Les critères de choix</TextBlock>
+        </StackPanel>
+        <TextBlock Style="{StaticResource PageParagraphe}">Autre évidence : on doit choisir l'emplacement de son terrain avec le même soin qu'on met à sélectionner un logement. Il doit être adapté à ses besoins et à son mode de vie. La localisation doit tenir compte de la proximité des commerces, des moyens de transports en commun, des réseaux routiers, des établissements scolaires (quand on a des enfants), etc. Comme pour un logement, l'orientation et l'exposition ont également leur importance.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">Les candidats à l'acquisition ont généralement le choix entre deux solutions : l'achat d'un terrain en lotissement ou l'achat d'un terrain isolé.</TextBlock>
+
+    </StackPanel>
+</s:SurfaceUserControl>

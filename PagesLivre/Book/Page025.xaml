@@ -1,0 +1,21 @@
+﻿<s:SurfaceUserControl x:Class="PagesLivre.Book.Page025"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:book="clr-namespace:PagesLivre.Book"
+    xmlns:s="http://schemas.microsoft.com/surface/2008">
+    <s:SurfaceUserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="PageStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </s:SurfaceUserControl.Resources>
+    <StackPanel Style="{StaticResource PageStyle}">
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            Les autres clauses suspensives sont librement négociées par les deux parties. Exemples : obtention d'un certificat d'urbanisme mentionnant l'absence de servitudes ou d'un permis de construire quand l'acheteur prévoit des travaux importants, absence de préemption des collectivités locales, absence d'hypothèque ou de procédure de saisie, etc.
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagrapheBold}">
+            En cas de besoin, l'acheteur peut demander à inclure une clause qui suspend l'exécution du contrat tant qu'il n'a pas trouvé lui-même un acquéreur pour son propre logement. Cette clause est parfaitement légale.
+        </TextBlock>
+    </StackPanel>
+</s:SurfaceUserControl>

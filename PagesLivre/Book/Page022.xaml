@@ -1,0 +1,37 @@
+﻿<s:SurfaceUserControl x:Class="PagesLivre.Book.Page022"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:book="clr-namespace:PagesLivre.Book"
+    xmlns:s="http://schemas.microsoft.com/surface/2008">
+    <s:SurfaceUserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="PageStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </s:SurfaceUserControl.Resources>
+    <StackPanel Style="{StaticResource PageStyle}">
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            2. Le candidat acheteur ne lève pas l'option. Une fois passée la date-limite, le propriétaire est libre de proposer le bien à un autre candidat et il conserve l'indemnité d'immobilisation.
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagrapheBold}">
+            Si le candidat acheteur manifeste rapidement son refus, il peut éventuellement demander une restitution partielle de cette somme. Les tribunaux accordent parfois une réduction de l'indemnité quand celle-ci est jugée excessive au regard de la durée d'immobilisation.
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagrapheBold}">
+            Sauf clause contraire, le bénéficiaire d'une promesse de vente peut la céder à un tiers, qui se substitue à lui. Ce qui lui permet de récupérer l'indemnité d'immobilisation.
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            3. Le propriétaire renonce à vendre le logement avant que le bénéficiaire lève son option. Dans ce cas, ce dernier ne peut obliger le propriétaire à vendre son bien mais il est en droit d'exiger des dommages-intérêts, éventuellement en portant l'affaire en justice, et uniquement après avoir levé officiellement l'option dans les délais.
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagrapheBold}">
+            Il en est de même quand le propriétaire vend à un tiers pendant le délai prévu et avant la levée de l'option.
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            4. Le propriétaire refuse de vendre le logement après que le bénéficiaire a levé son option. Outre les dommages-intérêts qu'il peut réclamer, ce dernier peut aussi obliger le propriétaire à vendre son logement puisque la seule levée de l'option suffit à conclure légalement la transaction.
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagrapheBold}">
+            Naturellement, l'indemnité est remboursée quand le propriétaire ne fait pas face à ses obligations.
+        </TextBlock>
+
+    </StackPanel>
+</s:SurfaceUserControl>

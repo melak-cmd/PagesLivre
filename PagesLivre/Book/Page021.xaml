@@ -1,0 +1,40 @@
+﻿<s:SurfaceUserControl x:Class="PagesLivre.Book.Page021"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:book="clr-namespace:PagesLivre.Book"
+    xmlns:s="http://schemas.microsoft.com/surface/2008">
+    <s:SurfaceUserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="PageStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </s:SurfaceUserControl.Resources>
+    <StackPanel Style="{StaticResource PageStyle}">
+        <TextBlock Style="{StaticResource PageParagrapheBold}">
+            Quand le vendeur est un particulier, il n'a pas le droit de réclamer le versement d'une somme d'argent avant la fin du délai de rétractation. A l'inverse, quand il s'agit d'un logement neuf ou en état futur d'achèvement ou quand le vendeur est un professionnel, l'avant-contrat peut prévoir le versement d'une indemnité d'immobilisation.
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagrapheBold}">
+            Dans tous les cas, quand l'acheteur se rétracte, il doit récupérer les sommes éventuellement versées dans un délai de 21 jours à compter du lendemain de la date de rétractation.
+        </TextBlock>
+        <StackPanel Style="{StaticResource PageTitleBlock2}">
+            <book:imgFNAIM ShowTitre="False" />
+            <TextBlock Style="{StaticResource PageTitle2}">La promesse de vente</TextBlock>
+        </StackPanel>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            La promesse de vente engage surtout le vendeur. Le propriétaire (le "promettant") donne en quelque sorte une option sur le bien au candidat acheteur, selon les conditions stipulées dans l'acte. Naturellement, la quasi-totalité des promesses de vente comporte une date-limite.
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            En cosignant cet acte, le candidat acheteur accepte le bénéfice de la promesse et, jusqu'à cette date-limite, il a le droit d'acheter ou non le bien en levant l'option. En contrepartie de cette option, il verse également à l'acheteur une "indemnité d'immobilisation".
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagrapheBold}">
+            Cette somme représente en général 10% du prix de vente. Mais si le prix est élevé et la durée de la promesse assez réduite, il est possible de diminuer ce montant. Là encore, les parties sont libres de négocier.
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagrapheBold}">
+            Dès lors, plusieurs hypothèses peuvent se présenter.
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            1. Le candidat acheteur lève l'option dans le délai imparti. La vente est alors conclue sur le plan légal (avant d'être formalisée ensuite par l'acte authentique).
+        </TextBlock>
+    </StackPanel>
+</s:SurfaceUserControl>

@@ -1,0 +1,65 @@
+﻿<s:SurfaceUserControl x:Class="PagesLivre.Book.Page001"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:book="clr-namespace:PagesLivre.Book"
+    xmlns:s="http://schemas.microsoft.com/surface/2008">
+    <s:SurfaceUserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="PageStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </s:SurfaceUserControl.Resources>
+    <StackPanel Style="{StaticResource PageStyle}">
+        
+        <s:SurfaceButton Style="{StaticResource PageButton}">
+            <StackPanel Style="{StaticResource PageTitleBlock1}">
+                <book:imgFNAIM ShowTitre="False" />
+                <TextBlock Style="{StaticResource PageTitle1}">Charges et réparations : qui paie quoi ?</TextBlock>
+            </StackPanel>
+        </s:SurfaceButton>
+        
+        <s:SurfaceButton Style="{StaticResource PageButton}">
+            <StackPanel Style="{StaticResource PageTitleBlock1}">
+                <book:imgFNAIM ShowTitre="False" />
+                <TextBlock Style="{StaticResource PageTitle1}">L'avant contrat de vente</TextBlock>
+            </StackPanel>
+        </s:SurfaceButton>
+        
+        <s:SurfaceButton Style="{StaticResource PageButton}">
+            <StackPanel Style="{StaticResource PageTitleBlock1}">
+                <book:imgFNAIM ShowTitre="False" />
+                <TextBlock Style="{StaticResource PageTitle1}">La révision du loyer</TextBlock>
+            </StackPanel>
+        </s:SurfaceButton>
+        
+        <s:SurfaceButton Style="{StaticResource PageButton}">
+            <StackPanel Style="{StaticResource PageTitleBlock1}">
+                <book:imgFNAIM ShowTitre="False" />
+                <TextBlock Style="{StaticResource PageTitle1}">Logements neufs</TextBlock>
+            </StackPanel>
+        </s:SurfaceButton>
+        
+        <s:SurfaceButton Style="{StaticResource PageButton}">
+            <StackPanel Style="{StaticResource PageTitleBlock1}">
+                <book:imgFNAIM ShowTitre="False" />
+                <TextBlock Style="{StaticResource PageTitle1}">Logements anciens</TextBlock>
+            </StackPanel>
+        </s:SurfaceButton>
+        
+        <s:SurfaceButton Style="{StaticResource PageButton}">
+            <StackPanel Style="{StaticResource PageTitleBlock1}">
+                <book:imgFNAIM ShowTitre="False" />
+                <TextBlock Style="{StaticResource PageTitle1}">Crédits immobiliers : les règles légales</TextBlock>
+            </StackPanel>
+        </s:SurfaceButton>
+        
+        <s:SurfaceButton Style="{StaticResource PageButton}">
+            <StackPanel Style="{StaticResource PageTitleBlock1}">
+                <book:imgFNAIM ShowTitre="False" />
+                <TextBlock Style="{StaticResource PageTitle1}">L'achat du terrain</TextBlock>
+            </StackPanel>
+        </s:SurfaceButton>
+        
+    </StackPanel>
+</s:SurfaceUserControl>

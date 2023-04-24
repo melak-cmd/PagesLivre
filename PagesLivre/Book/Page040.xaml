@@ -1,0 +1,32 @@
+﻿<s:SurfaceUserControl x:Class="PagesLivre.Book.Page040"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:book="clr-namespace:PagesLivre.Book"
+    xmlns:s="http://schemas.microsoft.com/surface/2008">
+    <s:SurfaceUserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="PageStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </s:SurfaceUserControl.Resources>
+    <StackPanel Style="{StaticResource PageStyle}">
+        <StackPanel Style="{StaticResource PageTitleBlock1}">
+            <book:imgFNAIM ShowTitre="False" />
+            <TextBlock Style="{StaticResource PageTitle1}">Logements neufs</TextBlock>
+        </StackPanel>
+
+        <StackPanel Style="{StaticResource PageTitleBlock2}">
+            <book:imgFNAIM ShowTitre="False" />
+            <TextBlock Style="{StaticResource PageTitle2}">Achetés entre le 1er juin 1993 et le 31 décembre 1994</TextBlock>
+        </StackPanel>
+        <TextBlock Style="{StaticResource PageParagraphe}">Les immeubles achetés neufs au cours de cette période bénéficient d'une exonération partielle de droits de donation ou de succession lors de leur première transmission à titre gratuit. L'abattement est de 46 000 € par part.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">Exemple : M. et Mme Martin donnent un logement d'une valeur de<LineBreak/>500 000 € à leurs deux enfants. Chaque enfant bénéficie déjà d'un abattement de 46 000 € sur la part de chaque parent, soit 92 000 €. A cette somme s'ajoutent les abattements spécifiques du dispositif, soit encore 92 000 €. Conclusion : les droits à payer pour un enfant seront calculés sur la valeur de la part transmise (250 000) moins 184 000 d'abattements, soit 66 000 €.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">Le logement doit être affecté, de façon exclusive et continue, à l'habitation principale pendant au moins cinq ans à compter de la date d'achat, quel que soit l'occupant (propriétaire, locataire, etc.). Si le logement fait l'objet d'une donation pendant cette période, l'obligation est transférée au bénéficiaire de la donation.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">En d'autres termes, M. Martin peut donner le logement à son fils deux ans après l'achat. L'avantage fiscal n'est pas remis en cause si Martin junior consacre le logement à l'habitation principale pendant encore trois ans.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">En cas de décès du propriétaire, la durée de cinq ans n'est pas exigée.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">En cas de vente de ce logement, l'acheteur bénéficie d'un abattement de 91 000 € pour le calcul des droits d'enregistrement.Mais les abattements pour donation et pour vente ne sont pas cumulables.</TextBlock>
+
+
+    </StackPanel>
+</s:SurfaceUserControl>

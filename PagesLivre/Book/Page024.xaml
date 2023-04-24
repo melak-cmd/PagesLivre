@@ -1,0 +1,31 @@
+﻿<s:SurfaceUserControl x:Class="PagesLivre.Book.Page024"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:book="clr-namespace:PagesLivre.Book"
+    xmlns:s="http://schemas.microsoft.com/surface/2008">
+    <s:SurfaceUserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="PageStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </s:SurfaceUserControl.Resources>
+    <StackPanel Style="{StaticResource PageStyle}">
+        <TextBlock Style="{StaticResource PageTitle3}">
+            Les clauses suspensives
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            Les clauses "résolutoires" n'empêchent pas le début de réalisation du contrat mais l'annulent si les événements prévus se réalisent. Les clauses "suspensives", elles, suspendent l'exécution du contrat jusqu'à ce que les événements prévus se réalisent. Le résultat est en fait identique : la transaction ne se réalise pas en raison d'un événement indépendant de la volonté des deux parties.
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">
+            La seule clause suspensive obligatoire concerne l'obtention d'un prêt. Si l'achat est financé par l'emprunt, le candidat acheteur est délié de son engagement s'il n'obtient pas le prêt escompté dans les délais prévus. Il récupère alors intégralement son indemnité d'immobilisation ou son dépôt de garantie. En revanche, il est engagé dès que l'établissement financier lui transmet une offre de prêt conforme aux caractéristiques prévues. D'où la nécessité de bien négocier les termes du prêt avant la signature de l'avant-contrat.
+        </TextBlock>
+
+        <TextBlock Style="{StaticResource PageParagrapheBold}">
+            L'acheteur qui n'emprunte pas doit mentionner expressément dans l'avant-contrat qu'il renonce au bénéfice de la loi.
+        </TextBlock>
+        <TextBlock Style="{StaticResource PageParagrapheBold}">
+            Le candidat acheteur ne doit pas utiliser cette clause pour renoncer volontairement à l'achat et récupérer intégralement les sommes versées. Les tribunaux ont condamné ainsi certaines pratiques, quand, par exemple, le candidat acheteur remettait un dossier incomplet à sa banque, etc. En revanche, certains événements (licenciement, invalidité, etc.) peuvent être admis par les tribunaux et permettre à l'intéressé de récupérer les sommes versées même s'il a par ailleurs obtenu son prêt.
+        </TextBlock>
+    </StackPanel>
+</s:SurfaceUserControl>

@@ -1,0 +1,109 @@
+﻿<s:SurfaceWindow x:Class="PagesLivre.SurfaceWindow1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:s="http://schemas.microsoft.com/surface/2008"
+    xmlns:book="clr-namespace:PagesLivre.Book"
+    Title="PagesLivre"
+    >
+  <s:SurfaceWindow.Resources>
+    <ImageBrush x:Key="WindowBackground" Stretch="None" Opacity="0.6" ImageSource="pack://application:,,,/Resources/WindowBackground.jpg"/>
+
+        <Style TargetType="s:ScatterViewItem">
+            <Setter Property="MinHeight" Value="360"/>
+            <Setter Property="MinWidth" Value="600"/>
+            <Setter Property="MaxHeight" Value="540"/>
+            <Setter Property="MaxWidth" Value="900"/>
+            <Setter Property="Orientation" Value="0"/>
+        </Style>
+        <Style TargetType="StackPanel">
+            <Setter Property="Orientation" Value="Horizontal"/>
+        </Style>
+        <Style TargetType="Viewbox">
+            <Setter Property="Stretch" Value="Uniform"/>
+        </Style>
+    </s:SurfaceWindow.Resources>
+
+  <Grid Background="{StaticResource WindowBackground}">
+        <s:ScatterView>
+            
+            <s:ScatterViewItem Center="350,200">
+                <StackPanel>
+                    <Viewbox>
+                        <book:Page010 />
+                    </Viewbox>
+                    <Viewbox>
+                        <book:Page011 />
+                    </Viewbox>
+                </StackPanel>
+            </s:ScatterViewItem>
+            
+            <s:ScatterViewItem Center="390,230">
+                <StackPanel>
+                    <Viewbox>
+                        <book:Page012 />
+                    </Viewbox>
+                    <Viewbox>
+                        <book:Page020 />
+                    </Viewbox>
+                </StackPanel>
+            </s:ScatterViewItem>
+            
+            <s:ScatterViewItem Center="430,260">
+                <StackPanel>
+                    <Viewbox>
+                        <book:Page021 />
+                    </Viewbox>
+                    <Viewbox>
+                        <book:Page022 />
+                    </Viewbox>
+                </StackPanel>
+            </s:ScatterViewItem>
+            
+            <s:ScatterViewItem Center="470,290">
+                <StackPanel>
+                    <Viewbox>
+                        <book:Page023 />
+                    </Viewbox>
+                    <Viewbox>
+                        <book:Page024 />
+                    </Viewbox>
+                </StackPanel>
+            </s:ScatterViewItem>
+
+            <s:ScatterViewItem Center="510,320">
+                <StackPanel>
+                    <Viewbox>
+                        <book:Page025 />
+                    </Viewbox>
+                    <Viewbox>
+                        <book:Page030 />
+                    </Viewbox>
+                </StackPanel>
+            </s:ScatterViewItem>
+
+            <s:ScatterViewItem Center="550,350">
+                <StackPanel>
+                    <Viewbox>
+                        <book:Page031 />
+                    </Viewbox>
+                    <Viewbox>
+                        <book:Page032 />
+                    </Viewbox>
+                </StackPanel>
+            </s:ScatterViewItem>
+
+            <s:ScatterViewItem Center="590,380">
+                <StackPanel>
+                    <Viewbox>
+                        <book:Page000 />
+                    </Viewbox>
+                    <Viewbox>
+                        <book:Page001 />
+                    </Viewbox>
+                </StackPanel>
+            </s:ScatterViewItem>
+
+        </s:ScatterView>
+
+    </Grid>
+</s:SurfaceWindow>

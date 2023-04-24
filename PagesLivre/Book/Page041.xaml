@@ -1,0 +1,24 @@
+﻿<s:SurfaceUserControl x:Class="PagesLivre.Book.Page041"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:book="clr-namespace:PagesLivre.Book"
+    xmlns:s="http://schemas.microsoft.com/surface/2008">
+    <s:SurfaceUserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="PageStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </s:SurfaceUserControl.Resources>
+    <StackPanel Style="{StaticResource PageStyle}">
+        <StackPanel Style="{StaticResource PageTitleBlock2}">
+            <book:imgFNAIM ShowTitre="False" />
+            <TextBlock Style="{StaticResource PageTitle2}">Achetés entre le 1er août 1995 et le 31 décembre 1995</TextBlock>
+        </StackPanel>
+        <TextBlock Style="{StaticResource PageParagraphe}">Les immeubles achetés neufs au cours de cette période bénéficient d'une exonération partielle de droits de donation ou de succession lors de leur première transmission à titre gratuit. L'abattement est de 46 000 € par part.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">Les conditions exigées sont équivalentes, à quelques différences près.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">L'immeuble doit être affecté à l'habitation principale pendant deux ans.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">Le bénéficiaire de la donation ou succession doit s'engager à ne pas affecter le bien à un usage autre que l'habitation pendant une durée minimale de trois ans à compter de la transmission.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">Si le bien est cédé ou transmis pendant cette période de trois ans, l'engagement doit être poursuivi par le bénéficiaire de la transmission ou l'acheteur.</TextBlock>
+    </StackPanel>
+</s:SurfaceUserControl>

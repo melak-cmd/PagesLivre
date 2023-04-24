@@ -1,0 +1,25 @@
+﻿<s:SurfaceUserControl x:Class="PagesLivre.Book.Page071"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:book="clr-namespace:PagesLivre.Book"
+    xmlns:s="http://schemas.microsoft.com/surface/2008">
+    <s:SurfaceUserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="PageStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </s:SurfaceUserControl.Resources>
+    <StackPanel Style="{StaticResource PageStyle}">
+        <TextBlock Style="{StaticResource PageParagraphe}">Le lotissement possède ses avantages : il offre certaines garanties en matière de viabilisation (raccordement aux réseaux d'eau, d'électricité, etc.) et de constructibilité. Mais il impose aussi certaines contraintes. Le règlement de lotissement comporte en effet des règles qui s'ajoutent à celles du plan d'occupation des sols. La construction devra donc respecter les normes précisées non seulement sur le plan architectural (matériaux, couleurs, surface, etc.) mais aussi souvent sur l'environnement immédiat de la maison (boîte aux lettres, clôture, etc.). La plupart du temps, un cahier des charges impose également certaines obligations de vie collective (entretien du jardin, etc.).</TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">A l'inverse, l'achat d'un terrain isolé offre une plus grande liberté. Mais c'est aussi une démarche plus risquée qui présente moins de garanties sur la nature du sol, la dimension de la parcelle, etc.</TextBlock>
+
+        <StackPanel Style="{StaticResource PageTitleBlock2}">
+            <book:imgFNAIM ShowTitre="False" />
+            <TextBlock Style="{StaticResource PageTitle2}">Les précautions à prendre</TextBlock>
+        </StackPanel>
+        <TextBlock Style="{StaticResource PageParagraphe}">Qu'il s'agisse d'un lotissement ou d'un terrain isolé, la première démarche est de demander à la mairie un certificat d'urbanisme. C'est ce document qui confirmera le caractère constructible du terrain et les différentes normes architecturales à respecter (forme de la toiture, couleur des matériaux, etc.), qui précisera les règles de densité de construction par rapport à la surface ainsi que les contraintes d'aménagement des abords.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">On consultera également avec profit le POS (plan d'occupation des sols) qui renseignera sur les règles de construction applicables localement. C'est ce qui permet de vérifier l'évolution à venir de l'environnement et de s'assurer qu'on ne risque pas de se retrouver, par exemple, avec un immeuble sur la parcelle voisine... Il permet aussi de contrôler la nature des éventuelles servitudes d'utilité publique (passage des canalisations, des lignes d'électricité, etc.) ou privées (droit de passage, etc.).</TextBlock>
+
+    </StackPanel>
+</s:SurfaceUserControl>

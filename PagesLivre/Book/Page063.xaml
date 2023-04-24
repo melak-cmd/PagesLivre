@@ -1,0 +1,29 @@
+﻿<s:SurfaceUserControl x:Class="PagesLivre.Book.Page063"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:book="clr-namespace:PagesLivre.Book"
+    xmlns:s="http://schemas.microsoft.com/surface/2008">
+    <s:SurfaceUserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="PageStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </s:SurfaceUserControl.Resources>
+    <StackPanel Style="{StaticResource PageStyle}">
+
+        <StackPanel Style="{StaticResource PageTitleBlock2}">
+            <book:imgFNAIM ShowTitre="False" />
+            <TextBlock Style="{StaticResource PageTitle2}">L'exécution du contrat</TextBlock>
+        </StackPanel>
+        <TextBlock Style="{StaticResource PageParagraphe}">En cas de litige touchant l'acquisition, notamment en matière de construction, le tribunal peut accorder à l'emprunteur une suspension des versements en attendant une solution.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">En cas de défaillance non justifiée de l'emprunteur, le prêteur peut exiger le remboursement du capital encore dû et des intérêts échus (et non à échoir)</TextBlock>
+        <TextBlock Style="{StaticResource PageParagrapheBold}">Les sommes impayées produisent intérêt au taux du prêt.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagrapheBold}">Le prêteur peut également exiger une indemnité qui ne peut dépasser 7% des sommes encore dues (capital et intérêts) ainsi que les éventuels frais de justice.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagraphe}">L'emprunteur peut toujours rembourser par anticipation tout ou partie de son prêt.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagrapheBold}">Le contrat peut interdire les remboursements anticipés partiels inférieurs à 10% du montant du prêt.</TextBlock>
+        <TextBlock Style="{StaticResource PageParagrapheBold}">Le prêteur peut demander une indemnité, qui ne peut dépasser la valeur d'un semestre d'intérêt sur le capital remboursé, dans la limite de 3% du capital encore dû avant le remboursement. La loi du 25 juin 1999 supprime cette indemnité quand le remboursement fait suite à la vente du bien motivée par certaines circonstances affectant l'emprunteur ou son conjoint : changement du lieu d'activité professionnelle, décès, cessation forcée de l'activité professionnelle. Cette disposition concerne les contrats conclus à compter du 30 juin 1999.</TextBlock>
+
+
+    </StackPanel>
+</s:SurfaceUserControl>
